@@ -1,0 +1,489 @@
+﻿
+/*#region Contact Us Page */
+
+.contact {
+    background-image: url('../files/images/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    min-width: 100%;
+    min-height: 100vh;
+    z-index:-1;
+}
+
+.contact-header {
+    font-family: 'Anton', sans-serif;
+    background-image: linear-gradient(to right, brown, brown, yellow, white, yellow, brown, brown);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 12% 5% 0% 5%;
+    text-align: center;
+    font-size: 5em;
+    
+}
+.contact-column-bg {
+    background-color: rgb(10, 10, 100, 0.5);
+    box-shadow: 10px 10px #f8f6b0;
+    min-height: 50vh;
+    margin: .5em;
+    
+}
+
+.contact-column {
+    margin-left:2em;
+    margin-right: 2em;
+}
+
+.contact-column-emptyDiv {
+    min-height: 3em;
+}
+
+.contact-column > header {
+    font-family: 'Niconne', cursive;
+    color: yellow;
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 4px 4px 0px navy, 4px 4px 8px white;
+    margin:.2em;
+}
+
+.contact-column > hr {
+    border: .05em solid #f8f6b0;
+    opacity:1;
+    
+}
+
+.contact-column > p {
+    text-align: center;
+    font-size: 1em;
+    color: #f8f6b0;
+   
+}
+
+.contact-column > p > a {
+    color: gray;
+    text-decoration: underline
+}
+
+/*#endregion */
+
+/*#region Home Page */
+
+/*#region Home 1st section */
+#my-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100vh;
+    
+    z-index: -1;
+}
+#video-dull {
+    background-color: rgba(1,1,1,0.4);
+    background-position: 50% 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed
+}
+
+#Artificial-Intelligence {
+    align-content: center;
+    
+    padding: 12% 0% 12% 0%;
+}
+
+#Artificial-Intelligence > header {
+    font-family: 'Anton', sans-serif;
+    background-image: linear-gradient(to right, brown, brown, yellow, white, yellow, brown, brown);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 6em;
+}
+#Artificial-Intelligence > p {
+    color: white;
+    text-shadow: 1px 1px black;
+    /*mix-blend-mode: difference;*/
+        
+}
+
+/*#endregion */
+
+/*#region Home 2nd Section */
+#Home-div1 {
+    background-image: url('/files/images/bg1.jpg');
+    background-position: 50% 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 0;
+    padding-bottom:0;
+}
+
+    #Home-div1 > p {
+        font-family: 'Anton', sans-serif;
+        /*background-image: linear-gradient(to right, brown, brown, yellow, white, yellow, brown, brown);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;*/
+        color: #f8f6b0;
+        text-align: center;
+        position: center;
+        font-size: 3em;
+        padding: 10% 5% 5% 5%;
+    }
+
+.Home-div2 {
+    /*height: auto;
+    width: 100%;
+    font-size: 36px;
+    text-align: center;
+    background-color: white;
+    display: table;*/
+    margin-top:0;
+    padding-top:0;
+}
+
+.tech-fig {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+    object-fit: cover;
+    position: relative;
+}
+
+.tech-fig > figcaption {
+    height: auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    text-align: center;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    
+    visibility: hidden;
+}
+
+.tech-fig:hover > figcaption {
+    visibility: visible;
+}
+
+.tech-img {
+    height: auto;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.tech-fig > figcaption > h2 {
+    color: yellow;
+    text-shadow: 2px 2px 0px navy, 2px 2px 4px white;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 1em;
+}
+
+.tech-fig > figcaption > p {
+    font-size: 0.9em;
+    color: white;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Read-more-button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+/*#endregion */
+
+/*#region Home 3rd Section */
+#Home-div3 {
+    background-image: url('/files/images/bg2.jpg');
+    background-position: 50% 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 0;
+    padding-bottom: 3em;
+
+}
+
+#Home-div3 > div > p {
+    font-family: 'Anton', sans-serif;
+    background-image: linear-gradient(to right, brown, brown, yellow, white, yellow, brown, brown);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    position: center;
+    font-size: 3em;
+    padding: 5% 5% 5% 5%;
+}
+
+.Home-pie > a > img{
+    max-width: 100%;
+    
+}
+
+.home-figure {
+    text-shadow: 2px 2px 0px white, 2px 2px 3px navy;
+    background: linear-gradient(to right, gray, white, gray);
+    color: navy;
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+    position: relative;
+    margin-bottom: 1.1em;
+    margin-left: .1em;
+}
+
+.home-figure > img {
+    max-width: 100%;
+    transition: 2s ease;
+    opacity: 0;
+}
+.home-figure:hover > img {
+    opacity: 1;
+    
+}
+
+
+.home-figure > figcaption {
+    
+    width: 100%;
+    text-align: center;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    visibility: visible;
+    padding-top: 15%;
+    
+}
+
+.companies {
+    margin:1em;
+}
+
+
+/*#endregion */
+
+
+/*#endregion */
+
+/*#region Companies Page */
+
+.Comp-bg {
+    background-image: url('../files/images/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    min-width: 100%;
+    min-height: 100vh;
+}
+
+
+.Comp-bg > header {
+    font-family: 'Anton', sans-serif;
+    /*background-image: linear-gradient(to right, brown, brown, yellow, white, yellow, brown, brown);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;*/
+    color: #f8f6b0;
+    text-align: center;
+    position: center;
+    font-size: 6em;
+    padding: 5% 5% 0% 5%;
+    text-shadow: 2em 2em 2em white;
+    padding-top: 15%;
+    
+}
+
+.Comp-bg > p {
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: 1.5em;
+    text-align:center;
+}
+.Comp-rows > div {
+    height:50vh;
+}
+
+.Comp-pics > img {
+    width: 100%;
+    --bs-gtter-x:0;
+}
+
+
+
+.Comp-info > header {
+    text-shadow: 2px 2px 0px white, 2px 2px 4px navy;
+    font-family: "Oxygen", sans-serif;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    text-align:center;
+    font-size: 2em;
+}
+
+.Comp-info > p {
+    color:black;
+}
+
+.orange {
+    background: linear-gradient(to bottom, #ff9933, #ffe6cc, white, white);
+}
+
+.blue {
+    background: linear-gradient(to bottom, #3333ff, #ccccff, white, white);
+}
+
+/*#endregion */
+
+/*#region Jobs Page */
+
+.Jobs-bg {
+    background-image: url('../files/images/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    min-width: 100%;
+    min-height: 100vh;
+}
+
+
+.Jobs-bg > header {
+    font-family: 'Anton', sans-serif;
+    color: #f8f6b0;
+    text-align: center;
+    position: center;
+    font-size: 6em;
+    padding: 5% 5% 0% 5%;
+        
+    padding-top: 15%;
+    text-shadow: 4px 4px 2px navy, 4px 4px 8px white;
+}
+
+.Jobs-bg > p {
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.Jobs-div1 {
+    background-image: url('/files/images/bg3.jpg');
+    background-position: 50% 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 0;
+    padding-bottom: 3em;
+}
+
+.plot {
+    margin-left: 40px;
+    margin-right: 40px;
+    /*align-content:center;*/
+}
+
+.Jobs-header {
+    font-family: 'Anton', sans-serif;
+    color: #f8f6b0;
+    text-align: center;
+    position: center;
+    font-size: 3em;
+    padding: 5% 5% 5% 5%;
+    text-shadow: 2em 2em 2em white;
+    padding-top: 10%;
+    text-shadow: 4px 4px 2px navy, 4px 4px 8px white;
+    
+}
+
+#tbl {
+    color: rgb(0, 0, 128);
+    background-color: white;
+    text-align:center;
+    
+}
+
+thead {
+    color: yellow;
+    background-color: rgb(0, 0, 128);
+    border: 2px solid black;
+}
+
+th {
+    color: yellow;
+    background-color: rgb(0, 0, 128);
+    border: 2px solid black;
+    text-align:center;
+}
+
+tr, td {
+    border: 1px solid black;
+}
+tr, td, th, thead, tbody {
+    
+    /*width: auto;*/
+    height:2em;
+}
+
+
+/*#endregion */
+
+
+/*#region Responsive Css */
+/*lg*/
+@media (min-width: 992px) {
+    .title {
+        }
+    }
+
+/*md*/
+@media (min-width: 768px) and (max-width: 992px) {
+    .title {
+    }
+
+    
+       
+}
+
+/*sm*/
+@media (min-width: 576) and (max-width: 768px) {
+    .title {
+    }
+    .plot {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    /*.home-last-3 {
+        margin-top: 1em;
+    }
+
+    .home-figure {
+        background: black;
+    }*/
+        
+}
+
+/*xs*/
+@media (max-width: 576px) {
+    .col-xs-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .plot {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+    /*#endregion */

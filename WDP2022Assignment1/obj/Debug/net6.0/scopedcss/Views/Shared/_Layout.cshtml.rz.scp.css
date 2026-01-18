@@ -1,0 +1,110 @@
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-py10muqqdt] {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+    color: #e8eaed;
+    background-color: #222222;
+}
+
+#Nav[b-py10muqqdt] {
+    background-color: #222222;
+    font-family: Arial;
+    color: white;
+}
+
+#Nav-Button[b-py10muqqdt] {
+    font-family: Arial, sans-serif;
+    color: white !important;
+}
+
+a[b-py10muqqdt] {
+  color: white;
+}
+
+.btn-primary[b-py10muqqdt] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-py10muqqdt], .nav-pills .show > .nav-link[b-py10muqqdt] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-py10muqqdt] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-py10muqqdt] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-py10muqqdt] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-py10muqqdt] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/*.body {
+    margin-bottom: 5em;
+    overflow: hidden;
+}*/
+
+/*.footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+    position: absolute;
+    background-color: #222222;
+    font-family: Arial;
+}*/
+
+
+/*li{
+    list-style-type: none;
+}*/
+
+/*#links{
+    padding: 20px 0;
+    line-height: 1.5em;
+}*/
+
+/*#region Responsive Css */
+@media (min-width: 992px) {
+    .title[b-py10muqqdt] {
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .title[b-py10muqqdt] {
+    }
+}
+
+@media (min-width: 576) and (max-width: 768px) {
+    .title[b-py10muqqdt] {
+    }
+}
+
+@media (max-width: 576px) {
+    .title[b-py10muqqdt] {
+    }
+
+    .navbar[b-py10muqqdt] {
+        
+    }
+
+    .body[b-py10muqqdt] {
+        margin-top: 50em;
+        margin-bottom: 35em;
+    }
+}
+/*#endregion */
